@@ -1,0 +1,83 @@
+form {
+  width: 100%;
+  height: 100%;
+  margin: auto;
+  margin-top: 2.5rem;
+  max-width: 750px;
+  .formContent {
+    border: 1px solid;
+    padding: 1.5rem;
+    background: #f0f0f3;
+    box-shadow: 8.446866989135742px 8.446866989135742px 25.340600967407227px 0px
+        #aeaec066,
+      -8.446866989135742px -8.446866989135742px 25.340600967407227px 0px #ffffff;
+    border-radius: 2rem;
+
+    label {
+      width: 100%;
+      margin-top: 1rem;
+      display: flex;
+      flex-direction: column;
+      text-align: left;
+
+      .file_input {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        .file {
+          opacity: 0;
+          width: 0.1px;
+          height: 0.1px;
+          position: absolute;
+        }
+        .uploadBtnText {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          border: 1px solid;
+          border-radius: 20px;
+          padding: 0.25rem;
+          width: 110px;
+
+          img {
+            margin: 0 0.25rem;
+          }
+        }
+      }
+
+      .input_cntr {
+        width: 100%;
+        display: flex;
+        border: 1px solid;
+        padding: 0.25rem;
+
+        span {
+          margin: 0 0.25rem;
+          display: flex;
+          justify-content: center;
+        }
+        img {
+          margin: 0 0.25rem;
+        }
+        input {
+          border: 0;
+          margin: 0 0.25rem;
+          background: #f0f0f3;
+          width: 100%;
+        }
+      }
+    }
+  }
+
+  .submit_btn {
+    margin-top: 1.9rem;
+    width: 140px;
+    background: black;
+    color: white;
+    padding: 1rem;
+    margin: 1.5rem auto;
+    border: 0;
+    border-radius: 60px;
+    cursor: pointer;
+  }
+}

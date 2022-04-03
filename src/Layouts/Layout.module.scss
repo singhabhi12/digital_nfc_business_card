@@ -1,0 +1,16 @@
+.container {
+  background: white;
+  color: black;
+  min-height: 100vh;
+  padding: 1.5rem;
+  header {
+    margin-top: 1.5rem;
+    img {
+      cursor: pointer;
+    }
+  }
+  main {
+    width: 100%;
+    background: white;
+  }
+}

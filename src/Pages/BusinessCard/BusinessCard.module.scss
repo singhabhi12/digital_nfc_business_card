@@ -1,0 +1,29 @@
+.container {
+  color: black;
+  padding: .75rem;
+  max-width: 750px;
+  margin: auto;
+
+  .editCardBtn {
+    margin: 2rem auto;
+    background: black;
+    color: white;
+    width: 205px;
+    border: 1px solid;
+    border-radius: 60px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding: 1rem;
+    cursor: pointer;
+    img {
+      filter: invert(1);
+      width: 37px;
+      height: 37px;
+      margin: 0 0.5rem;
+    }
+    span {
+      font-size: 1.1rem;
+    }
+  }
+}
